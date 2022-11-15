@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg bg-light py-4">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img width="40px" height="40px"
+                        src="./paypal-62-722730.png" alt=""></a>
+                <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse"
+                    id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" style="color: #001c64;"
+                                aria-current="page"
+                                href="#">Personal</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" style="color: #001c64;"
+                                aria-current="page"
+                                href="#">Business</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" style="color: #001c64;"
+                                aria-current="page"
+                                href="#">Develoer</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" style="color: #001c64;"
+                                aria-current="page"
+                                href="#">Help</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" style="color: #001c64;"
+                                aria-current="page"
+                                href="#">Contact</a>
+                        </li>
+
+
+
+                    </ul>
+
+                    <a class="btn btn-primary rounded rounded-5 " style="color:
+                        #001c64; background-color: aliceblue;"
+                        aria-current="page"
+                        href="#">Login</a>
+                    <a class="btn btn rounded rounded-5 mx-3 " style="color:
+                        #ffffff; background-color: #0b2361;" aria-current="page"
+                        href="#">Sign Up</a>
+
+
+                </div>
+            </div>
+        </nav>
+        <header class="head">
+            <div class="container px-5">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="my-4 fhead">
+                            <h2>The New PayPal app is here</h2>
+                        </div>
+                        <div class="col-xxl-8 col-lg-6 col-md-12 col-sm-12 ">
+                            <!-- <button class="btn btn-warning text-black py-3 my-3
+                                minshow text-center px-5 rounded rounded-5">Get
+                                the app</button> -->
+                            <p class="pp-sans-small-regular
+                                device-hero-qrc-sms__hatch-text"><a id="lmor">Learn more
+                                    about the new <span class="arrow-nowrap">features
+                                        <span class="ars ms-3"><svg id="right"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="25" height="25"
+                                                fill="currentColor" class="bi
+                                                bi-arrow-right" viewBox="0 0 16
+                                                16">
+                                                <path fill-rule="evenodd" d="M1
+                                                    8a.5.5 0 0 1
+                                                    .5-.5h11.793l-3.147-3.146a.5.5
+                                                    0 0 1 .708-.708l4 4a.5.5 0 0
+                                                    1 0 .708l-4 4a.5.5 0 0
+                                                    1-.708-.708L13.293
+                                                    8.5H1.5A.5.5 0 0 1 1 8z"/>
+                                                </svg></span> <span
+                                                class="tertiary-button--icon"></span></span></a></p>
+                                <p
+                                    class="fw-bold my-5 fs-5 hide">Scan
+                                    the code or enter your number to get the
+                                    app.</p>
+                                <div class="container hide">
+                                    <div class="row">
+                                        <div class="col-md-4 qrbox text-center">
+                                            <img
+                                                src="https://www.paypalobjects.com/marketing/web/us/en/home/qr-code-us-home-hero.svg"
+                                                alt="qr code">
+
+                                        </div>
+                                        <div class="col-md-8 px-3">
+                                            <div class="input-group my-3">
+                                                <span class="input-group-text"
+                                                    id="basic-addon1"><svg
+                                                        xmlns="http://www.w3.org/2000/svg"
+                                                        width="16" height="16"
+                                                        fill="currentColor"
+                                                        class="bi bi-phone"
+                                                        viewBox="0 0 16 16">
+                                                        <path d="M11 1a1 1 0 0 1
+                                                            1 1v12a1 1 0 0 1-1
+                                                            1H5a1 1 0 0
+                                                            1-1-1V2a1 1 0 0 1
+                                                            1-1h6zM5 0a2 2 0 0
+                                                            0-2 2v12a2 2 0 0 0 2
+                                                            2h6a2 2 0 0 0
+                                                            2-2V2a2 2 0 0
+                                                            0-2-2H5z"/>
+                                                            <path d="M8 14a1 1 0
+                                                                1 0 0-2 1 1 0 0
+                                                                0 0 2z"/>
+                                                            </svg></span>
+                                                        <input type="text"
+                                                            class="form-control
+                                                            myform
+                                                            fcmy py-3"
+                                                            placeholder="Phone
+                                                            Number"
+                                                            aria-label="Username"
+                                                            aria-describedby="basic-addon1">
+                                                    </div>
+                                                    <center> <button class="btn
+                                                            btn-warning
+                                                            text-black
+                                                            py-3 px-5 rounded
+                                                            rounded-5">Send Link</button>
+                                                    </center>
+                                                    <p class="text-white fw-bold
+                                                        my-3">By clicking Send
+                                                        Link you agree to
+                                                        receive a text message
+                                                        with a link to the
+                                                        PayPal app. Message and
+                                                        data rates may apply.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                                <div class="col-md-4" style="align-items:
+                                    flex-end; display: flex; justify-content:
+                                    flex-start;">
+                                    <img class="img-fluid w-100 himg"
+                                        src="./device-hero.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </header>
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                <p class="fw-semibold py-4 mt-4 fs-4">Need to
+                                    connect PayPal with your online store? <span
+                                        class="text-primary">Sign up for a
+                                        Business account</span> </p>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12 p-3">
+                                <div class="row">
+                                    <div class="col-md-6 text-center">
+                                        <img src="./BNPL-img.jpg" 
+                                            class="img-fluid banimg" alt="">
+                                    </div>
+                                    <div class="col-md-6" style="display: flex;
+                                        align-items: center; ">
+                                        <div class="box">
+                                            <p class="fw-semibold display-5">Buy
+                                                now, pay later with Pay in 4</p>
+                                            <p class="text-black fs-5
+                                                fw-semibold">Want something now
+                                                but the sale ends before payday?
+                                                Choose Pay in 4 at checkout with
+                                                millions of online stores and
+                                                split the cost into 4
+                                                interest-free payments.</p>
+                                            <p class="text-primary fs-5
+                                                fw-semibold htpay">Learn How to
+                                                Pay in
+                                                4<svg id="right" class="ms-3
+                                                    fw-semibold"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    width="25" height="25"
+                                                    fill="currentColor"
+                                                    class="bi
+                                                    bi-arrow-right" viewBox="0 0
+                                                    16
+                                                    16">
+                                                    <path fill-rule="evenodd"
+                                                        d="M1
+                                                        8a.5.5 0 0 1
+                                                        .5-.5h11.793l-3.147-3.146a.5.5
+                                                        0 0 1 .708-.708l4 4a.5.5
+                                                        0 0
+                                                        1 0 .708l-4 4a.5.5 0 0
+                                                        1-.708-.708L13.293
+                                                        8.5H1.5A.5.5 0 0 1 1
+                                                        8z"/>
+                                                    </svg></p>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col-md-12 p-3">
+                                    <div class="row">
+
+                                        <div class="col-md-6" style="display:
+                                            flex; align-items: center; ">
+                                            <div class="box">
+                                                <p class="fw-semibold
+                                                    display-5">Check out with
+                                                    crypto</p>
+                                                <p class="text-black fs-5
+                                                    fw-semibold">Access a new
+                                                    way to pay. Sign up for an
+                                                    account and spend crypto at
+                                                    millions of online stores
+                                                    with PayPal.</p>
+                                                <p class="text-black">Checking
+                                                    out with crypto is a taxable
+                                                    transaction. Fees and
+                                                    exchange rates will apply.
+                                                    Buying and selling
+                                                    cryptocurrency is subject to
+                                                    a number of risks and PayPal
+                                                    does not make any
+                                                    recommendations. Consult
+                                                    your tax advisor. Merchants
+                                                    are paid in fiat currency.</p>
+                                                <p class="text-primary fs-5
+                                                    fw-semibold htpay">Learn How
+                                                    to
+                                                    Pay in 4<svg id="right"
+                                                        class="ms-3 fw-semibold"
+                                                        xmlns="http://www.w3.org/2000/svg"
+                                                        width="25" height="25"
+                                                        fill="currentColor"
+                                                        class="bi
+                                                        bi-arrow-right"
+                                                        viewBox="0 0 16
+                                                        16">
+                                                        <path
+                                                            fill-rule="evenodd"
+                                                            d="M1
+                                                            8a.5.5 0 0 1
+                                                            .5-.5h11.793l-3.147-3.146a.5.5
+                                                            0 0 1 .708-.708l4
+                                                            4a.5.5 0 0
+                                                            1 0 .708l-4 4a.5.5 0
+                                                            0
+                                                            1-.708-.708L13.293
+                                                            8.5H1.5A.5.5 0 0 1 1
+                                                            8z"/>
+                                                        </svg></p>
+
+                                                </div>
+
+                                            </div>
+                                            <div class="col-md-6 text-center">
+                                                <img src="./crypto-img.jpg"
+                                                    class="img-fluid banimg"
+                                                    alt="">
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <hr>
+                                    <div class="col-md-12 p-3">
+                                        <div class="row">
+                                            <div class="col-md-6 text-center">
+                                                <img src="./touchfree-img.jpg"
+                                                    class="img-fluid banimg"
+                                                    alt="">
+                                            </div>
+                                            <div class="col-md-6"
+                                                style="display: flex;
+                                                align-items: center; ">
+                                                <div class="box">
+                                                    <p class="fw-semibold
+                                                        display-5">Touch-free
+                                                        payments</p>
+                                                    <p class="text-black fs-5
+                                                        fw-semibold">Leave the
+                                                        cash and cards at home.
+                                                        When it comes to paying
+                                                        with the app, the only
+                                                        thing you’ll need to
+                                                        reach for is your phone.</p>
+                                                    <p class="text-primary fs-5
+                                                        fw-semibold htpay">Learn
+                                                        How
+                                                        to Pay in 4<svg
+                                                            id="right"
+                                                            class="ms-3
+                                                            fw-semibold"
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            width="25"
+                                                            height="25"
+                                                            fill="currentColor"
+                                                            class="bi
+                                                            bi-arrow-right"
+                                                            viewBox="0 0 16
+                                                            16">
+                                                            <path
+                                                                fill-rule="evenodd"
+                                                                d="M1
+                                                                8a.5.5 0 0 1
+                                                                .5-.5h11.793l-3.147-3.146a.5.5
+                                                                0 0 1
+                                                                .708-.708l4
+                                                                4a.5.5 0 0
+                                                                1 0 .708l-4
+                                                                4a.5.5 0 0
+                                                                1-.708-.708L13.293
+                                                                8.5H1.5A.5.5 0 0
+                                                                1 1 8z"/>
+                                                            </svg></p>
+
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="container py-5">
+                                    <div class="row">
+                                        <div class="col-md-4 text-center" style="display:
+                                            flex; align-items: center;">
+                                            <p class="display-5 fw-semibold
+                                                p-3">Check out with millions of
+                                                brands you love</p>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="myrow">
+                                                <div class="col-md-4">
+                                                    <img class="w-100 h-100"
+                                                        src="./hulu-logo.jpg"
+                                                        alt="">
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <img class="w-100 h-100"
+                                                        src="./grubhub-logo.jpg"
+                                                        alt="">
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <img class="w-100 h-100"
+                                                        src="./potterybarn-logo.jpg"
+                                                        alt="">
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <img class="w-100 h-100"
+                                                        src="./spotify-logo.jpg"
+                                                        alt="">
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <img class="w-100 h-100"
+                                                        src="./ultra-logo.jpg"
+                                                        alt="">
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <img class="w-100 h-100"
+                                                        src="./groupon-logo.jpg"
+                                                        alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <section style="background-color: #121661;">
+                                    <div class="container px-5">
+                                        <div class="row">
+                                            <div class="col-md-2"></div>
+                                            <div class="col-md-8 text-center">
+                                                <h2 style="font-family:
+                                                    PayPalSansBig-Light,Helvetica
+                                                    Neue,Arial,sans-serif;"
+                                                    class="text-white
+                                                    fw-semibold display-6 mt-5">Join
+                                                    the millions of users
+                                                    worldwide
+                                                    trusting PayPal every day</h2>
+                                            </div>
+                                            <div class="col-md-2"></div>
+                                            <div class="col-md-12 text-center
+                                                mt-5">
+                                                <button class="btn btn-light
+                                                    text-primary px-5 rounded
+                                                    rounded-5 py-2 mb-4">Sign Up
+                                                    for
+                                                    free</button>
+                                            </div>
+
+
+
+                                        </div>
+                                    </div>
+                                </section>
+                                <footer>
+                                    <div class="container">
+                                        <div class="row py-3">
+                                            <div class="col-md-2"></div>
+                                            <div class="col-md-8">
+                                                <p class="mt-2"
+                                                    style="font-family:
+                                                    PayPalSansSmall-Regular,Helvetica
+                                                    Neue,Arial,sans-serif;
+                                                    font-size: 13px;"><sup>1</sup>
+                                                    Paying friends back, or
+                                                    chipping in requires that
+                                                    you have an account with
+                                                    PayPal. A recipient will
+                                                    need to create an account
+                                                    with PayPal to receive
+                                                    money, if they don't already
+                                                    have one. An account with
+                                                    PayPal is required to send
+                                                    and receive money.
+                                                    <br>
+                                                    <br>
+                                                    PayPal, Inc. NMLS ID #910457
+                                                </p>
+
+                                                <div class="col-md-12 mt-5">
+                                                    <div class="row">
+                                                        <div class="col-md-12
+                                                            ful mt-5">
+                                                            <ul class="p-0">
+                                                                <a href="#"
+                                                                    class="nav-link"><li
+                                                                        class="py-2">
+                                                                        Home
+                                                                    </li></a>
+                                                                <a href="#"
+                                                                    class="nav-link"><li
+                                                                        class="px-2
+                                                                        py-2">
+                                                                        About
+                                                                    </li></a>
+                                                                <a href="#"
+                                                                    class="nav-link"><li
+                                                                        class="px-2
+                                                                        py-2">
+                                                                        Blog
+                                                                    </li></a>
+                                                                <a href="#"
+                                                                    class="nav-link"><li
+                                                                        class="px-2
+                                                                        py-2">
+                                                                        Contact
+                                                                    </li></a>
+                                                                <a href="#"
+                                                                    class="nav-link"><li
+                                                                        class="px-2
+                                                                        py-2">
+                                                                        Services
+                                                                    </li></a>
+                                                                <a href="#"
+                                                                    class="nav-link"><li
+                                                                        class="px-2
+                                                                        py-2">
+                                                                        App
+                                                                    </li></a>
+                                                                <a href="#"
+                                                                    class="nav-link"><li
+                                                                        class="px-2
+                                                                        py-2">
+                                                                        Shop
+                                                                    </li></a>
+                                                                <a href="#"
+                                                                    class="nav-link"><li
+                                                                        class="px-2
+                                                                        py-2">
+                                                                        Partners
+                                                                    </li></a>
+                                                            </ul>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <hr>
+                                                <div class="col-md-12">
+                                                    <div class="row">
+                                                        <div class="col-md-12
+                                                            ful">
+                                                            <ul class="p-0">
+                                                                <a href="#"
+                                                                    class="nav-link"><li
+                                                                        class="py-2">
+                                                                        About
+                                                                    </li></a>
+                                                                <a href="#"
+                                                                    class="nav-link"><li
+                                                                        class="px-2
+                                                                        py-2">
+                                                                        Newsroom
+                                                                    </li></a>
+                                                                <a href="#"
+                                                                    class="nav-link"><li
+                                                                        class="px-2
+                                                                        py-2">
+                                                                        jobs
+                                                                    </li></a>
+                                                                <a href="#"
+                                                                    class="nav-link"><li
+                                                                        class="px-2
+                                                                        py-2">
+                                                                        Public
+                                                                        Policy
+                                                                    </li></a>
+                                                                <a href="#"
+                                                                    class="nav-link"><li
+                                                                        class="px-2
+                                                                        py-2">
+                                                                        Privacy
+                                                                    </li></a>
+                                                                <a href="#"
+                                                                    class="nav-link"><li
+                                                                        class="px-2
+                                                                        py-2">
+                                                                        Terms
+                                                                    </li></a>
+                                                            </ul>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-2"></div>
+
+                                        </div>
+                                    </div>
+                                </footer>
+                                <script
+                                    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+                          <script src="./index.js"></script>
+                            </body>
+                        </html>

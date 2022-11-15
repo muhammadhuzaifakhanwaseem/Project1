@@ -1,0 +1,172 @@
+a {
+    background-color: transparent;
+    text-decoration: none;
+    font-family: PayPalSansSmall-Regular, Helvetica Neue, Arial, sans-serif;
+}
+
+.head {
+    background: #142c8e url(./background-swirls.png);
+    background-size: 100%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    color: #ffffff;
+}
+
+.fhead h2 {
+    font-weight: 600;
+    font-size: 52px;
+    font-size: 3.25rem;
+    padding: 0;
+    font-size: 7.14285714rem;
+    font-size: 100px;
+    font-size: 6.25rem;
+}
+
+.pp-sans-small-regular {
+    font-family: PayPalSansSmall-Regular, Helvetica Neue, Arial, sans-serif;
+    font-weight: 400;
+}
+
+.device-hero-qrc-sms__hatch-text a {
+    color: #56CCFE !important;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.ars {
+    width: 28px;
+    height: 31px;
+    background-color: #56ccfe4d;
+    border-radius: 100%;
+}
+
+#right {
+    transition: 0.3s ease-in-out;
+}
+
+
+
+.qrbox {
+    border-right: rgba(255, 255, 255, 0.507) 1px solid;
+}
+
+.myrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.logodiv {
+    flex: 100%;
+}
+
+.fcmy {
+
+    font-size: .9375rem;
+    font-family: PayPalSansSmall-Regular, Helvetica Neue, Arial, sans-serif;
+    font-weight: 400;
+    display: block;
+    box-sizing: border-box;
+    min-height: 3rem;
+    width: 100%;
+    border: 0.0625rem solid #b7bcbf;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #2e2e2f;
+}
+
+.minshow {
+    display: none;
+}
+
+.clock-container {
+    background: rgba(255, 255, 255, 0);
+    color: #45DBE3;
+
+    font-weight: 600;
+    padding: 20px;
+}
+
+.ful ul {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.flexend {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.flexendi {
+    list-style-type: none;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.ful ul li {
+    transition: all 0.2s;
+    list-style-type: none;
+    font-weight: 500;
+    font-size: 15px;
+}
+.ful ul li:hover {
+    list-style-type: none;
+    font-weight: 500;
+    font-size: 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.432);
+    color: #142c8e;
+}
+
+.clock {
+    float: left;
+}
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #86b6fe00 !important;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(13, 109, 253, 0) !important;
+}
+
+@media screen and (max-width: 1400px) {
+    .hide {
+        display: noe;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .minshow {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .fhead h2 {
+        font-size: 30px;
+    }
+.himg{
+    margin-bottom: 10px;
+}
+    .banimg {
+        margin-top: 30px;
+        margin-bottom: 40px;
+        width: 60%;
+        height: 60%;
+        text-align: center;
+    }
+
+    .logodiv {
+        flex: 100%;
+    }
+    .qrbox {
+        border-right: rgba(255, 255, 255, 0.507) 0px solid;
+    }
+    .htpay{
+        text-align: center !important;
+    }
+}
